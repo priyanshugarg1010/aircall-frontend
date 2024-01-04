@@ -1,0 +1,103 @@
+.archive_section {
+  padding: 15px;
+}
+.archive_call {
+  border: 1.5px solid #c7c7c7;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.archive_text {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.box_img {
+  width: 28px;
+  height: 28px;
+}
+.missed_section {
+  padding: 15px;
+}
+.missed_call {
+  border: 1.5px solid #c7c7c7;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.missed_number {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+.missed_text {
+  color: #939393;
+  font-weight: 500;
+  margin: 0;
+}
+
+.missed_img {
+  width: 20px;
+  height: 20px;
+  padding-left: 5px;
+}
+
+.number_info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: -12px;
+}
+
+.menu_img {
+  width: 20px;
+  height: 20px;
+}
+
+.time_value {
+  border-left: 1px solid #939393;
+  border-top: 1px solid #939393;
+  border-bottom: 1px solid #939393;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dotted_line {
+  border: none;
+  border-top: 1px dotted #939393;
+  height: 1px;
+  width: 50%; /* Adjust the width as needed */
+  margin: 1 auto; /* Center the dotted line */
+}
+
+.date {
+  color: #939393;
+  font-weight: 500;
+  width: 110px;
+}
