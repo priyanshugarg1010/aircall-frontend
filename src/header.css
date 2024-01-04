@@ -1,0 +1,57 @@
+.app_icon {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.app_icon_img {
+  width: 55px;
+  height: 42px;
+  background-color: white;
+}
+
+.header_heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #434343;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inbox,
+.all_calls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #939393;
+  font-weight: 500;
+  cursor: pointer;
+}
+.inbox {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.filter_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.hr_line {
+  color: #939393;
+}

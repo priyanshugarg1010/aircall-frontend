@@ -1,0 +1,28 @@
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hr_line {
+  color: #939393;
+  margin: 0;
+}
+
+.dial_img {
+  width: 70px;
+  height: 70px;
+  margin-top: -40px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
